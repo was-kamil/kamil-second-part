@@ -11,7 +11,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/v1/task")
-
 public class TaskController {
 
     @RequestMapping(method = RequestMethod.GET, value = "getTasks")
